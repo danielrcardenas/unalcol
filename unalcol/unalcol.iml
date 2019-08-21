@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file:///home/jgomez/git/projects/libs/rsyntaxtextarea-3.0.0-SNAPSHOT.jar" />
+    <libelement value="file:///home/jgomez/git/projects/libs/lsgo.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/services" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/test" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/jsgui" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/agents" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/testbed" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/awtgui" expected_position="5" />
+      <src_folder value="file://$MODULE_DIR$/language" expected_position="6" />
+      <src_folder value="file://$MODULE_DIR$/evolution" expected_position="7" />
+      <src_folder value="file://$MODULE_DIR$/optimization" expected_position="8" />
+      <src_folder value="file://$MODULE_DIR$/math" expected_position="9" />
+      <src_folder value="file://$MODULE_DIR$/typeservice" expected_position="10" />
+      <src_folder value="file://$MODULE_DIR$/util" expected_position="11" />
+      <src_folder value="file://$MODULE_DIR$/xml" expected_position="12" />
+      <src_folder value="file://$MODULE_DIR$/gui" expected_position="13" />
+      <src_folder value="file://$MODULE_DIR$/outercore" expected_position="14" />
+      <src_folder value="file://$MODULE_DIR$/json" expected_position="15" />
+      <src_folder value="file://$MODULE_DIR$/random" expected_position="16" />
+      <src_folder value="file://$MODULE_DIR$/collection" expected_position="17" />
+      <src_folder value="file://$MODULE_DIR$/primitives" expected_position="18" />
+      <src_folder value="file://$MODULE_DIR$/innercore" expected_position="19" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="rsyntaxtextarea-3.0.0-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="file:///home/jgomez/git/projects/libs/rsyntaxtextarea-3.0.0-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lsgo.jar">
+        <CLASSES>
+          <root url="file:///home/jgomez/git/projects/libs/lsgo.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/unalcol/agents/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/awtgui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/collection/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/evolution/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/gui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/innercore/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/jsgui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/json/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/language/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/math/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/optimization/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/outercore/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/primitives/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/random/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/services/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/typeservice/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/util/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/xml/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

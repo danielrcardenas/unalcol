@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1cc0fd9-3726-47c0-b90c-bc9159e6973d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/agents/agents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/agents/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/awtgui/awtgui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/awtgui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/collection/collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/collection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/evolution/evolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/evolution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/gui/gui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/innercore/innercore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/innercore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/jsgui/jsgui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/jsgui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/json/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/language/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/math/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/optimization/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/outercore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/primitives/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/random/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/typeservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/unalcol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unalcol/xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/AgentArchitecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/AgentArchitecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/AgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/AgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/Kernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Kernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/Percept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Percept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/Visualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Visualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/bullsandcows/BullsCowsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/bullsandcows/BullsCowsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/bullsandcows/NumberIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/bullsandcows/NumberIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/bullsandcows/SimpleBCPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/bullsandcows/SimpleBCPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/DummyFourInRowAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/DummyFourInRowAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/FourInRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/FourInRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/FourInRowDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/FourInRowDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/FourInRowMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/FourInRowMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/FourInRowMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/FourInRowMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/fourinrow/FourInRowPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/fourinrow/FourInRowPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/DummyReversiAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/DummyReversiAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/Reversi.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/Reversi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/ReversiDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/ReversiDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/ReversiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/ReversiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/ReversiMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/ReversiMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/reversi/ReversiPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/reversi/ReversiPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanBoardDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanBoardDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/sokoban/SokobanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/sokoban/SokobanUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/DummySquaresAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/DummySquaresAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/Squares.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/Squares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/SquaresDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/SquaresDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/SquaresMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/SquaresMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/SquaresMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/SquaresMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/SquaresPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/SquaresPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/games/squares/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/games/squares/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/Labyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/Labyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/LabyrinthDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/LabyrinthDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/LabyrinthMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/LabyrinthMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/LabyrinthPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/LabyrinthPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/LabyrinthPerceptDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/LabyrinthPerceptDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/LabyrinthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/LabyrinthUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/generate/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/generate/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/generate/GeneratorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/generate/GeneratorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/generate/LabyrinthGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/generate/LabyrinthGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/generate/LabyrinthStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/generate/LabyrinthStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/generate/PathBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/generate/PathBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinthMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinthMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinthPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/MultiAgentLabyrinthPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/MultiTeseoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/MultiTeseoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterLabyrinthDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterLabyrinthDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/multeseo/eater/MultiTeseoEaterPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/TeseoLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/TeseoLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/TeseoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/TeseoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/TeseoMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/TeseoMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/TeseoPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/TeseoPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/TeseoPerceptDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/TeseoPerceptDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/simple/RandomReflexTeseo.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/simple/RandomReflexTeseo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/simple/SimpleTeseoAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/simple/SimpleTeseoAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/simple/SimpleTeseoJavaProgrammingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/simple/SimpleTeseoJavaProgrammingFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseo/simple/TeseoSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseo/simple/TeseoSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/OptionFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/OptionFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLabyrinthDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLabyrinthDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterPerceptDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/teseoeater/TeseoEaterPerceptDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/MultiTeseoVariableMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/TeseoVariableLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/TeseoVariableLabyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/TeseoVariableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/TeseoVariableMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/TeseoVariableMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/TeseoVariableMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/labyrinth/variable/WallDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/labyrinth/variable/WallDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/Sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/SudokuDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/SudokuDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/SudokuLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/SudokuLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/SudokuMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/SudokuMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/SudokuMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/SudokuMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/SudokuPercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/SudokuPercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/naive/NaiveSudokuAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/naive/NaiveSudokuAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/naive/NaiveSudokuBoardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/naive/NaiveSudokuBoardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/naive/NaiveSudokuGoalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/naive/NaiveSudokuGoalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/examples/sudoku/naive/NaiveSudokuSearchSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/examples/sudoku/naive/NaiveSudokuSearchSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/ActionCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/ActionCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/GoalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/GoalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/GraphSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/GraphSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/GraphSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/GraphSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/Astar.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/Astar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/ClassicSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/ClassicSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/ClassicSearchNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/ClassicSearchNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/ClassicSearchNodeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/ClassicSearchNodeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/Heuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/Heuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/IteratedDepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/IteratedDepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/classic/UniformCostSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/classic/UniformCostSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/search/util/ConstantCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/search/util/ConstantCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/SimulatedAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/SimulatedAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/SimulatedKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/SimulatedKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/gui/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/gui/DrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/gui/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/gui/Drawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/gui/EnvironmentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/gui/EnvironmentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/gui/SimpleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/gui/SimpleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/gui/WorkingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/gui/WorkingPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/util/InteractiveAgentFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/util/InteractiveAgentFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/util/InteractiveAgentProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/util/InteractiveAgentProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/util/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/util/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/agents/unalcol/agents/simulate/util/SimpleLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/simulate/util/SimpleLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/AWTEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/rsyntax/RSyntaxEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/rsyntax/RSyntaxTokenMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/simple/SimpleAWTEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/simple/SyntaxEditComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/simple/SyntaxEditPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/simple/SyntaxStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/editor/simple/SyntaxStyleInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/io/FileFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/log/AWTLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/log/LogOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/log/LogPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/paint/AWTCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/paint/Graphics2DScaler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/paint/PointDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/paint/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/paint/ShapeDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/render/AWTCanvasRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/awtgui/unalcol/gui/render/AWTTextRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/BitArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/BitArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/IntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/IntegerArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/array/ArraySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/array/ArraySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/array/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/array/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/array/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/array/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/keymap/MultiKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/keymap/MultiKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/keymap/MultiKeyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/keymap/MultiKeyCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/keymap/SplitMultiKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/keymap/SplitMultiKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/CQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/ListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/list/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/list/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/misc/DisjointSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/misc/DisjointSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/ImmutableSparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/ImmutableSparseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/SparseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/SparseArrayClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/SparseArrayClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/matrix/SparseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/matrix/SparseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/matrix/SparseMatrixElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/matrix/SparseMatrixElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/matrix/SparseMatrixElementsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/matrix/SparseMatrixElementsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/matrix/SparseMatrixIndicesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/matrix/SparseMatrixIndicesIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/sparse/matrix/SparseMatrixIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/sparse/matrix/SparseMatrixIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlusInnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlusInnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlusIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlusIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlusLeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlusLeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlusLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlusLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/BPlusNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/BPlusNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/immutable/ImmutableBPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/immutable/ImmutableBPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/immutable/ImmutableInnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/immutable/ImmutableInnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/immutable/ImmutableLeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/immutable/ImmutableLeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/immutable/ImmutableNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/immutable/ImmutableNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/immutable/ImmutableNodeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/immutable/ImmutableNodeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/memory/MemoryBPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/memory/MemoryBPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/memory/MemoryInnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/memory/MemoryInnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/memory/MemoryLeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/memory/MemoryLeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/tree/bplus/memory/MemoryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/tree/bplus/memory/MemoryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/vector/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/vector/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/vector/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/vector/Sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/collection/vector/SortedInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/collection/vector/SortedInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/object/Named.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/object/Named.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/object/ObjectKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/object/ObjectKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/object/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/object/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/object/ThingKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/object/ThingKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/object/UsesKeyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/object/UsesKeyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/sort/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/collection/unalcol/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/collection/src/main/java/unalcol/sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/ca/CambrianExtinctionCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/ca/CambrianExtinctionCA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/ca/CellularAutomata.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/ca/CellularAutomata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/EAFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/EAFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/ESFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/ESFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/es/CommaReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/es/CommaReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/es/ESReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/es/ESReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/es/ESStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/es/ESStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/es/ESVariation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/es/ESVariation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/es/PlusReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/es/PlusReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/ga/DeterministicCrowding.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/ga/DeterministicCrowding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/ga/GAStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/ga/GAStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/ga/GAVariation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/ga/GAVariation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/growing/GrowingBinaryToIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/growing/GrowingBinaryToIntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/growing/GrowingBinaryToRealVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/growing/GrowingBinaryToRealVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/CAHaeaStepDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/CAHaeaStepDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/CellularHaeaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/CellularHaeaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/DCHaeaReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/DCHaeaReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/HaeaOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/HaeaOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/HaeaReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/HaeaReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/HaeaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/HaeaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/HaeaStepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/HaeaStepDescriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/HaeaVariation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/HaeaVariation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/SimpleHaeaOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/SimpleHaeaOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/SimpleHaeaOperatorsDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/SimpleHaeaOperatorsDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/evolution/haea/WriteHaeaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/evolution/haea/WriteHaeaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/Generational.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/Generational.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/PopulationDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/PopulationDescriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/PopulationReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/PopulationReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/PopulationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/PopulationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/RealValuedPopulationGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/RealValuedPopulationGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/TotalSelectionReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/TotalSelectionReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/evolution/unalcol/search/population/VariationReplacePopulationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/evolution/src/main/java/unalcol/search/population/VariationReplacePopulationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/editor/EditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/editor/EditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/editor/EditorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/editor/EditorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/CanvasRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/CanvasRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/ColorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/ColorInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/CommandInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/CommandInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/paint/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/paint/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/render/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/render/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/gui/render/TextRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/gui/render/TextRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/BackEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/BackEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/DefaultComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/DefaultComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/DefaultSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/DefaultSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/FrontEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/KeyMapModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/KeyMapModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/KeyMapSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/KeyMapSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/Side.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/Side.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/VCModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/VCModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/gui/unalcol/vc/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/gui/src/main/java/unalcol/vc/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/clone/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/clone/Clone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/clone/Cloneable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/clone/Cloneable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/clone/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/clone/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Cleanable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Cleanable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Closable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Closable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Finite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Finite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/FromIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/FromIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Grow.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Grow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/KeyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/KeyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Mutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Shrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Shrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/array/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/array/Fibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/array/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/array/Immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/Immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/KeyOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/KeyOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/KeyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/KeyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/KeyValueClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/KeyValueClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/keymap/ValueOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/keymap/ValueOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/collection/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/collection/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/constants/InnerCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/constants/InnerCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/exception/ParamsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/exception/ParamsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/i18n/I18N.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/i18n/I18N.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/i18n/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/i18n/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/iterator/BT.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/iterator/BT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/iterator/Backable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/iterator/Backable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/iterator/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/iterator/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/iterator/PositionTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/iterator/PositionTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/iterator/Trackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/iterator/Trackable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/services/ProvidersSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/services/ProvidersSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/services/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/services/ServicePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/services/ServicePool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/sort/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/sort/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/sort/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/sort/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/sort/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/sort/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/sort/Reversed.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/sort/Reversed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/sort/Sortable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/sort/Sortable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/string/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/string/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/innercore/unalcol/string/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/innercore/src/main/java/unalcol/string/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/gui/JSCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/gui/JSCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/gui/JSCanvasRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/gui/JSCanvasRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/gui/JSEditorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/gui/JSEditorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/gui/JSLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/gui/JSLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/JSFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/JSFrontEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/JSModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/JSModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/JSModelLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/JSModelLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/JSView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/JSView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/JSViewComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/JSViewComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/fx/FXDeamon.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/fx/FXDeamon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/fx/FXManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/fx/FXManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/fx/FXPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/fx/FXPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/fx/IDE.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/fx/IDE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/server/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/server/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/server/JSServerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/server/JSServerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/server/PullServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/server/PullServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/mode/server/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/mode/server/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/jsgui/unalcol/js/vc/view/JSSimpleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/jsgui/src/main/java/unalcol/js/vc/view/JSSimpleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/json/unalcol/constants/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/constants/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/json/unalcol/json/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/json/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/json/unalcol/json/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/json/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/json/unalcol/json/JSON2Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/json/JSON2Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/json/unalcol/json/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/json/JSONParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/io/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/io/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/CommonLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/CommonLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/LanguageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/LanguageException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/LanguageMultiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/LanguageMultiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Lexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Meaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Meaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/Typed.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/Typed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/TypedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/TypedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/language/unalcol/language/generalized/GeneralizedTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/language/src/main/java/unalcol/language/generalized/GeneralizedTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/collection/vector/ScalarProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/collection/vector/ScalarProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/Groupoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/Groupoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/InvertableScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/InvertableScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/Monoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/Monoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/ScalarProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/ScalarProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/Scale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/VectorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/VectorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/linear/GaussReduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/linear/GaussReduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/algebra/linear/LinearSystemSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/algebra/linear/LinearSystemSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/DistanceFromSimmilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/DistanceFromSimmilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/DistanceOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/DistanceOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/MetricVectorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/MetricVectorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/QuasiMetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/QuasiMetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/metric/Simmilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/metric/Simmilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/statistics/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/statistics/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/math/statistics/HistogramKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/math/statistics/HistogramKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/Abs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/LinealScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/LinealScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/LinealScale01.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/LinealScale01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/DotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/LinealScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/LinealScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/MetricSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/MetricSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/SphereNormalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/SphereNormalization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/Uniform01.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/Uniform01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/VectorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/VectorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/metrics/Euclidean.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/metrics/Euclidean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/metrics/Minkowski.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/metrics/Minkowski.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/metrics/PMinkowski.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/metrics/PMinkowski.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/metrics/SqrEuclidean.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/metrics/SqrEuclidean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/DotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/MetricSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/MetricSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/PlainWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/PlainWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/SphereNormalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/SphereNormalization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/VectorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/VectorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/metric/CosineSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/metric/CosineSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/metric/Euclidean.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/metric/Euclidean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/metric/NormalizedCosineSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/metric/NormalizedCosineSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/array/sparse/metric/SqrEuclidean.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/array/sparse/metric/SqrEuclidean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/matrix/DirectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/matrix/DirectProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/math/unalcol/real/matrix/VectorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/math/src/main/java/unalcol/real/matrix/VectorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/integer/FromBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/integer/FromBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/integer/HyperCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/integer/HyperCube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/integer/Mutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/integer/Mutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/integer/XOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/integer/XOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/OptimizationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/OptimizationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/BinarySpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/BinarySpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/Transposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/Transposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/XOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/XOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/mutation/BitMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/mutation/BitMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/mutation/IntensityMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/mutation/IntensityMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/mutation/SingleBitMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/mutation/SingleBitMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/varlength/AddGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/varlength/AddGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/varlength/DelGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/varlength/DelGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/varlength/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/varlength/Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/binary/varlength/VarLengthBinarySpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/binary/varlength/VarLengthBinarySpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/AdaptOperatorOptimizationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/AdaptOperatorOptimizationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/OptimizationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/OptimizationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/annealing/SimpleSimulatedAnnealingScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/annealing/SimpleSimulatedAnnealingScheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/annealing/SimulatedAnnealingReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/annealing/SimulatedAnnealingReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/annealing/SimulatedAnnealingScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/annealing/SimulatedAnnealingScheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/method/hillclimbing/HillClimbingReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/method/hillclimbing/HillClimbingReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/FromBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/FromBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/HyperCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/HyperCube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/HyperCubeRepair.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/HyperCubeRepair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/ScaledHyperCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/ScaledHyperCube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/GaussianMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/GaussianMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/IntensityMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/IntensityMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/Mutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/Mutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/OneFifthRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/OneFifthRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/PermutationPick.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/PermutationPick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/PickComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/PickComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/PickOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/PickOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/PowerLawMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/PowerLawMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/RTransposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/RTransposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/mutation/UniformPick.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/mutation/UniformPick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/GeneXOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/GeneXOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/LinearXOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/LinearXOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/LinearXOverPerDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/LinearXOverPerDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/OneDimensionLinearXOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/OneDimensionLinearXOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/OneDimensionSimpleXOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/OneDimensionSimpleXOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/RealArityTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/RealArityTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/optimization/real/xover/SimpleXOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/optimization/real/xover/SimpleXOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/BasicGoalBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/BasicGoalBased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/DistanceToGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/DistanceToGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/Goal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/GoalBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/GoalBased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/RealQualityGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/RealQualityGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/RealValuedGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/RealValuedGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/AdaptOperatorLocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/AdaptOperatorLocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/AdaptSearchOperatorParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/AdaptSearchOperatorParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/IterativeLocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/IterativeLocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/LocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/LocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/PathTracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/PathTracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/local/VariationReplaceLocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/local/VariationReplaceLocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/multilevel/CodeDecodeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/multilevel/CodeDecodeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/multilevel/MultiLevelCodeDecodeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/multilevel/MultiLevelCodeDecodeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/multilevel/MultiLevelGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/multilevel/MultiLevelGoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/multilevel/MultiLevelSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/multilevel/MultiLevelSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/multilevel/MultiLevelSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/multilevel/MultiLevelSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/replacement/GoalBasedReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/replacement/GoalBasedReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/replacement/Replacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/replacement/Replacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Elitism.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Elitism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/GoalBasedSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/GoalBasedSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Roulette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/selection/Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/selection/Uniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/solution/SolutionDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/solution/SolutionDescriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/solution/SolutionWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/solution/SolutionWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/space/FixedPointSampler.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/space/FixedPointSampler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/space/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/space/Repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/space/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/space/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/space/SpaceMoveInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/space/SpaceMoveInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/space/SpaceSampler.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/space/SpaceSampler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/ParameterizedObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/ParameterizedObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/RefinedVariation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/RefinedVariation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/Variation.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/Variation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/VariationSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/VariationSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/VariationSelection_n_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/VariationSelection_n_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/Variation_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/Variation_1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/Variation_2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/Variation_2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/Variation_2_m.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/Variation_2_m.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/optimization/unalcol/search/variation/Variation_n_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/optimization/src/main/java/unalcol/search/variation/Variation_n_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/clone/ShallowClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/clone/ShallowClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/iterator/Position2DTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/iterator/Position2DTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/ApplyFunctionCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/ApplyFunctionCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/ApplyFunctionTaggedCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/ApplyFunctionTaggedCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/InvertableFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/InvertableFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/iterative/ForLoopCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/iterative/ForLoopCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/iterative/Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/iterative/Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/function/iterative/StepFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/function/iterative/StepFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/math/logic/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/math/logic/Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/object/Tagged.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/object/Tagged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/object/TaggedClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/object/TaggedClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/object/TaggedManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/object/TaggedManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/tracer/Traceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/tracer/Traceable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/outercore/unalcol/tracer/Tracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/outercore/src/main/java/unalcol/tracer/Tracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/bit/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/bit/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/bit/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/bit/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/integer/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/integer/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/integer/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/integer/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/integer/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/integer/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/integer/array/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/integer/array/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/integer/array/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/integer/array/Sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/llong/LongUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/llong/LongUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/llong/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/llong/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/PrecisionOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/PrecisionOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/StatisticsWithMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/StatisticsWithMedian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/array/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/array/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/array/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/array/Sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/matrix/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/matrix/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/matrix/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/matrix/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/pick/Elitism.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/pick/Elitism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/pick/Pick.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/pick/Pick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/pick/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/pick/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/primitives/unalcol/real/pick/Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/primitives/src/main/java/unalcol/real/pick/Uniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/bit/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/bit/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/integer/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/integer/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/integer/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/integer/Roulette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/integer/Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/integer/Uniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/object/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/object/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/InverseGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/InverseGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/UsesRawGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/UsesRawGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/JavaGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/JavaGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/SeedableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/SeedableGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/rngpack/RanMT.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/rngpack/RanMT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/rngpack/Ranecu.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/rngpack/Ranecu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/rngpack/Ranlux.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/rngpack/Ranlux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/raw/rngpack/Ranmar.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/raw/rngpack/Ranmar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/util/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/util/Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/random/util/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/random/util/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/FastGPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/FastGPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/FastPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/FastPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/FastSymmetricPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/FastSymmetricPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/GPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/GPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/Gaussian.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/Gaussian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/PowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/PowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/StdGPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/StdGPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/StdGaussian.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/StdGaussian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/StdPowerLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/StdPowerLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/StdUniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/StdUniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/Symmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/random/unalcol/real/Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/random/src/main/java/unalcol/real/Uniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/descriptors/Describable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/descriptors/Describable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/descriptors/Descriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/descriptors/Descriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/descriptors/WriteDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/descriptors/WriteDescriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/descriptors/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/descriptors/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/instance/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/instance/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/instance/Instanteable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/instance/Instanteable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/instance/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/instance/Load.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/instance/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/instance/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/Readable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/Readable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/ReaderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/ReaderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/Writable.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/Writable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/reader/Byte.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/reader/Byte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/io/reader/Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/io/reader/Char.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/OutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/SingleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/SingleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/services/unalcol/tracer/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/services/src/main/java/unalcol/tracer/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/array/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/array/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/array/PlainWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/array/PlainWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/array/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/array/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/integer/array/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/integer/array/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/array/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/array/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/array/PlainWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/array/PlainWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/array/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/array/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/array/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/array/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/matrix/PlainRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/matrix/PlainRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/matrix/PlainWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/matrix/PlainWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/matrix/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/matrix/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/real/matrix/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/real/matrix/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/typeservice/unalcol/tracer/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/typeservice/src/main/java/unalcol/tracer/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/i18n/LanguageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/i18n/LanguageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/JavaOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/JavaOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/compiler/Compiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/compiler/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/compiler/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/process/ExternalProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/process/ExternalProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/process/ProcessInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/process/ProcessInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/java/process/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/java/process/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/DefaultPlugInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/DefaultPlugInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/PlugIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/PlugIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/PlugInInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/PlugInInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/PlugInSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/PlugInSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/PlugInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/PlugInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/plugin/PlugInTreeInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/plugin/PlugInTreeInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/reflect/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/reflect/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/util/FileResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/util/FileResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/util/unalcol/util/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/util/src/main/java/unalcol/util/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLElementKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLElementKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLElementSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLElementSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLElementWrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLElementWrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLManifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLManifest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unalcol/xml/unalcol/xml/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLUtil.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/unalcol/agents/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/awtgui/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/collection/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/evolution/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/gui/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/innercore/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/jsgui/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/json/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/language/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/math/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/optimization/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/outercore/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/primitives/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/random/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/services/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/typeservice/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/util/target/" />
+    <ignored path="$PROJECT_DIR$/unalcol/xml/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unalcol/primitives/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unalcol/random/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unalcol/services/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unalcol/typeservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unalcol/util/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unalcol/xml/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/test" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/unalcol/agents/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/awtgui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/collection/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/evolution/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/gui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/innercore/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/jsgui/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/json/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/language/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/math/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/optimization/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/outercore/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/primitives/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/random/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/services/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/typeservice/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/util/pom.xml" />
+        <option value="$PROJECT_DIR$/unalcol/xml/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="36" />
+    <option name="y" value="23" />
+    <option name="width" value="1644" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unalcol-lib" type="58d84e3e:PackageViewProjectNode" />
+              <item name="agents" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="58d84e3e:PackageViewProjectNode" />
+              <item name="agents" type="616d4139:PackageViewModuleNode" />
+              <item name="unalcol.agents" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="innercore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="innercore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="innercore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="innercore" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="jsgui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="jsgui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="jsgui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="jsgui" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="outercore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="outercore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="outercore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="outercore" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="primitives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="primitives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="primitives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="primitives" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="binary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="integer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="real" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="typeservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="typeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="typeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="typeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unalcol-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unalcol" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unalcol/xml" />
+      <recent name="$PROJECT_DIR$/unalcol/util" />
+      <recent name="$PROJECT_DIR$/unalcol/typeservice" />
+      <recent name="$PROJECT_DIR$/unalcol/services" />
+      <recent name="$PROJECT_DIR$/unalcol/random" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unalcol/xml/src/main/java" />
+      <recent name="$PROJECT_DIR$/unalcol/util/src/main/java" />
+      <recent name="$PROJECT_DIR$/unalcol/typeservice/src/main/java" />
+      <recent name="$PROJECT_DIR$/unalcol/services/src/main/java" />
+      <recent name="$PROJECT_DIR$/unalcol/random/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="unalcol-lib" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1cc0fd9-3726-47c0-b90c-bc9159e6973d" name="Default" comment="" />
+      <created>1566351011202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566351011202</updated>
+      <workItem from="1566351012469" duration="4259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4259000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="23" width="1644" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32958803" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496879" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/unalcol/xml/src/main/java/unalcol/xml/XMLUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/lsgo/lsgo/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/lsgo/lsgo/F1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/lsgo/lsgo/F14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/doc/index-files/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/agents/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/agents/src/main/java/unalcol/agents/Action.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/json/Factory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/json/src/main/java/unalcol/constants/Json.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/awtgui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/evolution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/collection/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/gui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/innercore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/jsgui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/json/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/language/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/math/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/optimization/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/outercore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/primitives/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/random/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/typeservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unalcol/xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>unalcol</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="agents" />
+        <module name="awtgui" />
+        <module name="collection" />
+        <module name="evolution" />
+        <module name="gui" />
+        <module name="innercore" />
+        <module name="jsgui" />
+        <module name="json" />
+        <module name="language" />
+        <module name="math" />
+        <module name="optimization" />
+        <module name="outcore" />
+        <module name="primitives" />
+        <module name="random" />
+        <module name="services" />
+        <module name="typeservice" />
+        <module name="util" />
+        <module name="xml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="agents" target="1.7" />
+      <module name="awtgui" target="1.7" />
+      <module name="collection" target="1.7" />
+      <module name="evolution" target="1.7" />
+      <module name="gui" target="1.7" />
+      <module name="innercore" target="1.7" />
+      <module name="jsgui" target="1.7" />
+      <module name="json" target="1.7" />
+      <module name="language" target="1.7" />
+      <module name="math" target="1.7" />
+      <module name="optimization" target="1.7" />
+      <module name="outcore" target="1.7" />
+      <module name="primitives" target="1.7" />
+      <module name="random" target="1.7" />
+      <module name="services" target="1.7" />
+      <module name="typeservice" target="1.7" />
+      <module name="util" target="1.7" />
+      <module name="xml" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

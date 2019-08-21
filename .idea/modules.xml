@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/unalcol/agents/agents.iml" filepath="$PROJECT_DIR$/unalcol/agents/agents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/awtgui/awtgui.iml" filepath="$PROJECT_DIR$/unalcol/awtgui/awtgui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/collection/collection.iml" filepath="$PROJECT_DIR$/unalcol/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/evolution/evolution.iml" filepath="$PROJECT_DIR$/unalcol/evolution/evolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/gui/gui.iml" filepath="$PROJECT_DIR$/unalcol/gui/gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/innercore/innercore.iml" filepath="$PROJECT_DIR$/unalcol/innercore/innercore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/jsgui/jsgui.iml" filepath="$PROJECT_DIR$/unalcol/jsgui/jsgui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/json/json.iml" filepath="$PROJECT_DIR$/unalcol/json/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/language/language.iml" filepath="$PROJECT_DIR$/unalcol/language/language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/math/math.iml" filepath="$PROJECT_DIR$/unalcol/math/math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/optimization/optimization.iml" filepath="$PROJECT_DIR$/unalcol/optimization/optimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/outercore/outcore.iml" filepath="$PROJECT_DIR$/unalcol/outercore/outcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/primitives/primitives.iml" filepath="$PROJECT_DIR$/unalcol/primitives/primitives.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/random/random.iml" filepath="$PROJECT_DIR$/unalcol/random/random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/services/services.iml" filepath="$PROJECT_DIR$/unalcol/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/typeservice/typeservice.iml" filepath="$PROJECT_DIR$/unalcol/typeservice/typeservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/unalcol.iml" filepath="$PROJECT_DIR$/unalcol/unalcol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/util/util.iml" filepath="$PROJECT_DIR$/unalcol/util/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unalcol/xml/xml.iml" filepath="$PROJECT_DIR$/unalcol/xml/xml.iml" />
+    </modules>
+  </component>
+</project>
